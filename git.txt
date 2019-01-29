@@ -4,7 +4,7 @@ $ git init                                 // initialize local repository: creat
 
 $ git add <file>                           // adds files to staging area - To Index
 $ git status                               // check status of working tree
-$ git commit                               // commits changes to Index
+$ git commit -m 'comment'                  // commits changes to Index
 $ git push                                 // push to remote repo
 $ git pull                                 // pull latest from remote repo
 $ git clone                                // clone repo to new directory
@@ -17,5 +17,14 @@ $ config --gloabl user.email "your email"  // add your email to config
 use a .gitignore file to prevent files from being added to staging:
   files are indicated with a /
   *.xxx will block all .xxx files, etc
+
+$ git branch 'name'                        // creates a new branch from master
+$ git checkout 'name'                      // switch to branch
+$ git checkout master                      // switch to master
+$ git merge 'name' -m 'comment'            // merge branch with master
+
+apparently untracked changes can get deleted by merges ...
+
+
 
 
