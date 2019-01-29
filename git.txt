@@ -25,6 +25,5 @@ $ git merge 'name' -m 'comment'            // merge branch with master
 
 apparently untracked changes can get deleted by merges ...
 
-
-
-
+$ git remote add origin 'origin'           // add a remote origin directory like github
+$ git push -u origin master                // push changes to remote origin master
