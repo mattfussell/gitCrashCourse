@@ -27,3 +27,5 @@ apparently untracked changes can get deleted by merges ...
 
 $ git remote add origin 'origin'           // add a remote origin directory like github
 $ git push -u origin master                // push changes to remote origin master
+$ git push                                 // can be used after remote origin added
+$ git clone 'address'                      // pull down remote changes
