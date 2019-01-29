@@ -1,0 +1,21 @@
+$ git init                                 // initialize local repository: creates local .git folder
+                                           // almost never need to go into this folder
+                                           // run in the root of new project directories
+
+$ git add <file>                           // adds files to staging area - To Index
+$ git status                               // check status of working tree
+$ git commit                               // commits changes to Index
+$ git push                                 // push to remote repo
+$ git pull                                 // pull latest from remote repo
+$ git clone                                // clone repo to new directory
+$ git rm --cached <file>                   // remove selected file from staging
+$ git add .                                // adds all files in current directory
+
+$ config --global user.name "your name"    // add your username to config
+$ config --gloabl user.email "your email"  // add your email to config
+
+use a .gitignore file to prevent files from being added to staging:
+  files are indicated with a /
+  *.xxx will block all .xxx files, etc
+
+
